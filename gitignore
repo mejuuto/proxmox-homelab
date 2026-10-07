@@ -1,0 +1,15 @@
+# Claves privadas: NUNCA se suben
+id_ed25519
+id_rsa
+rasf
+*.pem
+*.ppk
+*.key
+
+# Informes completos de Lynis (contienen nombre de host, IP y detalles del sistema)
+*.dat
+lynis*.log
+
+# Secretos y configuraciones locales
+.env
+*.secret
